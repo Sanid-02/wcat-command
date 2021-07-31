@@ -18,7 +18,6 @@ for (let i = 0; i < consoleInput.length; i++) {
   }
 }
 
-// console.log(cmd);
 
 for (let i = 0; i < passedPath.length; i++) {
   let ans = fs.existsSync(passedPath[i]);
@@ -51,8 +50,6 @@ if (cmd.length == 0) {
     }
   }
 
-  console.log(cmd);
-
   if (cmd.includes("-s")) {
     ans = lineBreak.lineBreak(ans);
   }
@@ -63,7 +60,8 @@ if (cmd.length == 0) {
     ans = nonemptylines.numberNonEmpty(ans);
   }
 
-  // for (let i = 0; i < ans.length; i++) {
-  //   console.log(ans[i]);
-  // }
+  //Displaying Final Answer after performing all commands
+  for (let i = 0; i < ans.length; i++) {
+    console.log(ans[i]);
+  }
 }
