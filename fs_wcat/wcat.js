@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs = require("fs");
 
 const displayFiles = require("./displayFiles");
@@ -17,7 +18,6 @@ for (let i = 0; i < consoleInput.length; i++) {
     passedPath.push(consoleInput[i]);
   }
 }
-
 
 for (let i = 0; i < passedPath.length; i++) {
   let ans = fs.existsSync(passedPath[i]);

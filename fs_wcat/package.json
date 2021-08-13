@@ -1,0 +1,15 @@
+{
+  "name": "fs_wcat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "displayFiles.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hue": "wcat.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
